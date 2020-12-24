@@ -28,7 +28,7 @@ from keras.datasets import mnist,cifar10
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Flatten, Input
 from keras.layers import Dropout, merge, Lambda, Reshape, Convolution2D, MaxPooling2D
-from keras.layers import BatchNormalization, AveragePooling2D, Highway
+from keras.layers import BatchNormalization, AveragePooling2D # , Highway
 from keras.utils import np_utils
 from keras import backend as K
 from keras.engine.topology import Layer
